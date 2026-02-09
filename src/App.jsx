@@ -1,3 +1,11 @@
+import ButtonList from "./assets/components/buttons/buttonList";
+import Title from "./assets/components/Title";
+
 export default function App() {
-  return <h1>Demo Vite & React</h1>;
+  return (
+    <>
+      <Title />
+      <ButtonList />
+    </>
+  );
 }
