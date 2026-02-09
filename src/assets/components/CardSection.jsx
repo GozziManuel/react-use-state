@@ -41,7 +41,7 @@ export default function CardSection() {
   ];
   return (
     <>
-      <CardList />
+      <CardList cards={languages} />
     </>
   );
 }
