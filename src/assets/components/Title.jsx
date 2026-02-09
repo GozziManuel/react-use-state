@@ -1,7 +1,7 @@
 export default function Title() {
   return (
     <>
-      <h1>Learn Web development</h1>
+      <h1 className="m-3">Learn Web development</h1>
     </>
   );
 }

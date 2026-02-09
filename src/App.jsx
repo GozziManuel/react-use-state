@@ -1,11 +1,11 @@
-import ButtonList from "./assets/components/buttons/buttonList";
+import Main from "./assets/components/Main";
 import Title from "./assets/components/Title";
 
 export default function App() {
   return (
     <>
       <Title />
-      <ButtonList />
+      <Main />
     </>
   );
 }
