@@ -1,7 +1,9 @@
-export default function Button({ text }) {
+export default function Button({ text, toggler }) {
   return (
     <>
-      <button className="btn btn-primary">{text}</button>
+      <button onClick={toggler} className="btn btn-primary">
+        {text}
+      </button>
     </>
   );
 }

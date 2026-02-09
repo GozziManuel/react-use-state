@@ -1,6 +1,6 @@
 import CardList from "./Cards/CardList";
 
-export default function CardSection() {
+export default function Cards() {
   const languages = [
     {
       id: 1,
