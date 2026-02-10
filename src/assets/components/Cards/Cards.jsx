@@ -1,12 +1,10 @@
-export default function Cards({ title, description, isOpen }) {
+export default function Cards({ title, description }) {
   return (
     <>
-      {isOpen && (
-        <div>
-          <h1>{title}</h1>
-          <p>{description}</p>
-        </div>
-      )}
+      <div>
+        <h1>{title}</h1>
+        <p>{description}</p>
+      </div>
     </>
   );
 }
